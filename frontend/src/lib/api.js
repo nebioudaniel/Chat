@@ -1,4 +1,4 @@
-export const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3001";
+export const API_URL = import.meta.env.VITE_API_URL || "https://chat-production-61e3.up.railway.app";
 
 async function request(path, options = {}) {
   const token = localStorage.getItem("token");
